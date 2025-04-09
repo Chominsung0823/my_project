@@ -31,3 +31,25 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# 환경 설정 파일 (보안 민감 파일)
+application.properties
+application.yml
+.env
+
+# 로그 파일
+*.log
+
+# 임시 파일
+*.tmp
+*.bak
+*.swp
+
+# Mac/Windows에서 생기는 OS 파일
+.DS_Store
+Thumbs.db
+
+# 자바 관련
+*.class
+hs_err_pid*
+
