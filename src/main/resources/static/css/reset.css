@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hahmlet", serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:visited {
+	color: inherit;
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+} 
+
+#wrap {
+	width: 100%;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-tiems: center;
+}
+
+header {
+	width: 100%;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

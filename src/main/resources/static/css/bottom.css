@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+/* bottom.css */
+
+footer {
+	background-color: #fff;
+	color: #747474;
+	padding: 20px 0;
+	font-size: 14px;
+	border-top: 2px solid #80ff00;
+}
+
+.footer_group {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 30px;
+	padding: 0 20px;
+	
+}
+
+.footer_info {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.footer_info .address {
+	font-weight: bold;
+}
+
+.footer_info .info {
+	display: flex;
+	gap: 12px;
+	algin-items: center;
+}
+
+.footer_info .info li button {
+	border: none;
+	border-radius: 8px;
+	padding: 4px;
+	color:#747474;
+	cursor: pointer;
+}
+
+.footer_info .info li strong {
+	font-size: 18px;
+	line-height: 1.1;
+}
+
+.footer_info .copy {
+	font-size: 12px;
+	opacity: 0.7;
+}
+
+.footer_menu {
+	display: flex;
+}
+
+.footer_menu .menu {
+  display: flex;
+  gap: 15px;
+}
+
+.footer_menu .menu li a {
+  font-size: 14px;
+}
+
+.footer_menu .menu li a:hover {
+  text-decoration: underline; /* 마우스 호버 시 밑줄 표시 */
+}
+
+
+
+
+
+
